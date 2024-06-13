@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="API.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="PopUpcardUpdate">
+        <div class="cardUpdate">
+            <h2>Update</h2>
+            <label for="updateId">ID</label>
+            <input type="text" id="updateId">
+            <label for="Updatename">Name</label>
+            <input type="text" id="Updatename">
+            <br>
+            <label for="Updatecode">Code</label>
+            <input type="text" id="Updatecode">
+            <br>
+            <div>
+                <button id="updatedbtn" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+   </div>
+    <div>
+        <h2>Delete</h2>
+        <input type="text" id="DeleteId">
+        <button id="btnDelete">Delete</button>
+    </div>
+    <div >
+        <h2>Insert Data </h2>
+        <br>
+        <label for="code">Code</label>
+        <input type="text" id="code">
+        <br>
+        <br>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <button id="btn-submit">Submit</button>
+    </div>
+    <div>
+        
+        <input type="text" id="Image" >
+        <button id="btn" >Submit</button>
+        <img src="" alt="Pokemon sprite" id="PokemonSprite" style="display:none">
+        <h1>Regions</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <!-- <ul id="regions-list"></ul> -->
+    </div>
+   
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="API.js"></script>
